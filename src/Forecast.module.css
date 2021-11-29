@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    margin-bottom: 12px;
+    padding: 10px;
+    border-radius: 8px;
+    align-self: center;
+    color: grey;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.dateData{
+    padding-top: 15px;
+    flex: 1;
+}
+.temp{
+    display: flex;
+    flex-direction: row;
+}
+.tempData{
+    padding-top: 15px;
+}
+.weatherData{
+    flex: 1;
+    font-size: 14px;
+    padding-top: 15px;
+}
